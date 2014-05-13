@@ -311,7 +311,6 @@ textarea {
 
 #header {
 	width: 100%;
-	float: left;
 	color : blue;
 	height: 100px;
 }
@@ -351,7 +350,5 @@ textarea {
 	text-transform: uppercase;
 }
 
-#header ul{
-	float : left;
-}
+
 
