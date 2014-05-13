@@ -310,11 +310,15 @@ textarea {
 }
 
 #header {
-	width: 100%;
+	width: 960px;
 	color : blue;
 	height: 100px;
 }
 
+#header .hw{
+	float: right;
+
+}
 
 
 
