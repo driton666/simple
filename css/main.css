@@ -315,40 +315,6 @@ textarea {
 	height: 100px;
 }
 
-#header .logo {
-	float: left;
-	width: 200px;
-	padding-top: 35px;
-	padding-left: 35px;
-}
-
-#header .side {
-	float: right;
-	width: 500px;
-	margin-top: 35px;
-}
-
-#header .side .nav {
-	float: left;
-	margin: 0;
-	padding: 0px;
-	width: 200px;
-}
-
-#header .side .nav li {
-	display: inline-block;
-}
-
-#header .side .nav li a{
-	color: black;
-	text-decoration: none;
-}
-
-#header .side .nav li a:hover{
-	color: red;
-	text-decoration: underline;
-	text-transform: uppercase;
-}
 
 
 
