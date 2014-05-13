@@ -351,3 +351,7 @@ textarea {
 	text-transform: uppercase;
 }
 
+#header ul{
+	float : left;
+}
+
