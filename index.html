@@ -14,15 +14,32 @@
 	<div id="container">
 		<div id="header">
 			<img class="logo" src="img/bit.png">
+			<div id="seach-box">
+				<form method="search" action="">
+					<input type="search" value="Search" />
+				</form>
+			</div>
 			<ul class="hw">
 			<li><a href="#">Home</a></li>
 			<li><a href="#">Work</a></li>
 			</ul>
+			<div id="log-in">
+				<form method="username" action="">
+					<input type="email" value="e-mail" />
+				</form>
+				<form method="password" action="">
+					<input type="password" value="password" />
+				</form>
+				<form method="login" action="">
+					<input type="submit" value="log-in" />
+				</form>
+			</div>
+			
 		</div>
 		<div id="photo_content">
-			<p>Photos of me</p>
-				<ul>
-					<li>Fotot</li>
+			<a href="#">Photos of me</a>
+				<ul class="pl">
+					<p>Fotot</p>
 					<li><img src="img/antarctica.jpg"/></li>
 					<li><img src="img/antarctica.jpg"/></li>
 					<li><img src="img/antarctica.jpg"/></li>
@@ -39,9 +56,14 @@
 		<ul>
 			<li></li>
 		</ul>
+			<form method="post" action="">
+				<textarea name="comments" cols="134" rows="5"></textarea><br>
+				<input type="submit" value="Submit" />
+			</form>
 		</div>
 		<div id="content">
-			<ul class="interes">
+			<ul class="bio">
+				
 			</ul>
 		<div>
 	</div>

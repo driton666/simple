@@ -317,7 +317,10 @@ textarea {
 }
 
 #header .hw{
+	display: inline-flex;
 	float: right;
+	list-style-type:none;
+	margin-right:10px;
 
 }
 
@@ -330,16 +333,29 @@ textarea {
 }
 
 #photo_content img{
- 	
+	
 	width:100px;
 	height:50px;
+	
+}
+
+#photo_content .pl li{
+	float:left;
+	list-style-type:none;
+
+}
+#inter ul li{
+	list-style-type:none;
 
 }
 
-#photo_content ul li{
-	float:  left;
-	display: inline-block;
-		
+#seach-box{
+	float: right;
+	margin-top:10px;
+	margin-right:10px;
 }
 
-
+#log-in{
+	width:550px;
+	float:right;
+}
