@@ -34,15 +34,21 @@
 					<input type="submit" value="log-in" />
 				</form>
 			</div>
-			
-		</div>
-		<div id="photo_content">
-			<a href="Photos of me.html">Photos of me</a>
-			<a href="Photos of me.html"><img src="img/antarctica.jpg"/></a>
 		</div>
 		<div id="inter">
-		<a href="interes.html">Interes</a>
-		
+		<p>Interes</p>
+		<ul>
+			<li></li>
+		</ul>
+			<form method="post" action="">
+				<textarea name="comments" cols="134" rows="5"></textarea><br>
+				<input type="submit" value="Submit" />
+			</form>
+		</div>
+		<div id="content">
+			<ul class="bio">
+				
+			</ul>
 		<div>
 	</div>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
