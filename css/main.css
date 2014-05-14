@@ -313,6 +313,7 @@ textarea {
 	width: 960px;
 	color : red;
 	height: 100px;
+	position: relative;
 }
 
 #header .hw{
@@ -320,11 +321,25 @@ textarea {
 
 }
 
+.logo{
+
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	
+}
+
 #photo_content img{
  	
 	width:100px;
 	height:50px;
 
+}
+
+#photo_content ul li{
+	float:  left;
+	display: inline-block;
+		
 }
 
 
