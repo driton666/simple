@@ -354,3 +354,13 @@ textarea {
 #log-in{
 	float:left;
 }
+
+#main-article img{
+	width:200px;
+	height:100px;
+	display:inline-flex;
+}
+#main-article ul{
+	display:block;
+	
+}
