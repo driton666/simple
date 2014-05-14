@@ -314,6 +314,7 @@ textarea {
 	color : red;
 	height: 100px;
 	position: relative;
+	float:left;
 }
 
 #header .hw{
@@ -321,28 +322,23 @@ textarea {
 	float: right;
 	list-style-type:none;
 	margin-right:10px;
-
 }
 
 .logo{
-
-	position: absolute;
-	top: 10px;
-	left: 10px;
-	
+	float:left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right:10px;
 }
 
 #photo_content img{
-	
 	width:100px;
 	height:50px;
-	
 }
 
 #photo_content .pl li{
 	float:left;
 	list-style-type:none;
-
 }
 #inter ul li{
 	list-style-type:none;
@@ -356,6 +352,5 @@ textarea {
 }
 
 #log-in{
-	width:550px;
-	float:right;
+	float:left;
 }
